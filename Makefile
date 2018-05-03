@@ -5,7 +5,7 @@ PKG_VERSION:=v20170613
 PKG_RELEASE:=1pre
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
-PKG_SOURCE_URL:=https://github.com/breakwa11/shadowsocks-libev.git
+PKG_SOURCE_URL:=https://github.com/shadowsocks/shadowsocks-libev.git
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=f713aa981169d35ff9483b295d1209c35117d70c
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
@@ -24,7 +24,7 @@ define Package/shadowsocksr-libev/Default
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Lightweight Secured Socks5 Proxy
-  URL:=https://github.com/breakwa11/shadowsocks-libev
+  URL:=https://github.com/shadowsocks/shadowsocks-libev
 endef
 
 # default packages
