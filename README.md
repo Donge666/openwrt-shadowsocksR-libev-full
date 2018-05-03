@@ -58,10 +58,10 @@ ShadowsocksR-libev-full for OpenWrt
    ./scripts/feeds update base
    ./scripts/feeds update packages
    ./scripts/feeds install libpcre libopenssl libopenssl libmbedtls
-   wget -P package/feeds/base/mbedtls/patches https://github.com/bettermanbao/lede/raw/lede-17.01.2/package/libs/mbedtls/patches/999-tweak-config-for-shadowsocks.patch
+   wget -P package/feeds/base/mbedtls/patches https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/999-tweak-config-for-shadowsocks.patch
    
    # git clone openwrt-shadowsocksR-libev-full
-   git clone -b master https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full.git package/shadowsocksR-libev-full
+   git clone -b master https://github.com/Donge666/openwrt-shadowsocksR-libev-full.git package/shadowsocksR-libev-full
    
    # 选择要编译的包 Network -> shadowsocksr-libev
    make menuconfig
@@ -91,9 +91,9 @@ Makefile参考  [openwrt-shadowsocks][E]
 
 ----------
 
-  [O]: https://github.com/bettermanbao/openwrt-shadowsocks-libev-full
+  [O]: https://github.com/Donge666/openwrt-shadowsocksR-libev-full
   [1]: https://github.com/breakwa11/shadowsocks-libev
-  [R]: https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full/releases
+  [R]: https://github.com/Donge666/openwrt-shadowsocksR-libev-full/releases
   [S]: https://lede-project.org/docs/guide-developer/compile_packages_for_lede_with_the_sdk
   [E]: https://github.com/shadowsocks/openwrt-shadowsocks
   [D]: https://github.com/aa65535/openwrt-dns-forwarder
