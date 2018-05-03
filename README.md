@@ -58,10 +58,11 @@ ShadowsocksR-libev-full for OpenWrt
    ./scripts/feeds update base
    ./scripts/feeds update packages
    ./scripts/feeds install libpcre libopenssl libopenssl libmbedtls
-   wget -P package/feeds/base/mbedtls/patches https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/999-tweak-config-for-shadowsocks.patch
    
    # git clone openwrt-shadowsocksR-libev-full
    git clone -b master https://github.com/Donge666/openwrt-shadowsocksR-libev-full.git package/shadowsocksR-libev-full
+   
+   cp package/shadowsocksR-libev-full/999-tweak-config-for-shadowsocks.patch package/feeds/base/mbedtls/patches
    
    # 选择要编译的包 Network -> shadowsocksr-libev
    make menuconfig
