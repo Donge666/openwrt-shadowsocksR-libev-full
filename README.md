@@ -50,8 +50,10 @@ ShadowsocksR-libev-full for OpenWrt
    apt-get install libstdc++6-4.7-dev libstdc++6
    
    # 下载lede-SDK，以ramips为例
-   wget https://downloads.lede-project.org/releases/17.01.2/targets/ramips/mt7620/lede-sdk-17.01.2-ramips-mt7620_gcc-5.4.0_musl-1.1.16.Linux-x86_64.tar.xz
-   tar xf lede-sdk-17.01.2-ramips-mt7620_gcc-5.4.0_musl-1.1.16.Linux-x86_64.tar.xz
+   wget https://downloads.openwrt.org/releases/17.01.4/targets/brcm2708/bcm2710/lede-sdk-17.01.4-brcm2708-bcm2710_gcc-5.4.0_musl-1.1.16_eabi.Linux-x86_64.tar.xz
+   或者
+   wget http://mirrors.ustc.edu.cn/lede/releases/17.01.4/targets/brcm2708/bcm2710/lede-sdk-17.01.4-brcm2708-bcm2710_gcc-5.4.0_musl-1.1.16_eabi.Linux-x86_64.tar.xz
+   tar xf lede-sdk-17.01.4-brcm2708-bcm2710_gcc-5.4.0_musl-1.1.16_eabi.Linux-x86_64.tar.xz
    cd lede-sdk-*
    
    # 一些杂七杂八的坑
@@ -80,10 +82,10 @@ ShadowsocksR-libev-full for OpenWrt
 截图  
 ---
 
-![luci000](https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20000.png)
-![luci001](https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20001.png)
-![luci002](https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20002.png)
-![luci003](https://github.com/bettermanbao/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20003.png)
+![luci000](https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20000.png)
+![luci001](https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20001.png)
+![luci002](https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20002.png)
+![luci003](https://github.com/Donge666/openwrt-shadowsocksR-libev-full/blob/master/snapshot/luci%20003.png)
 
 感谢  
 ---
